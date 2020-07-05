@@ -6,11 +6,11 @@ const nextbtn=document.querySelector('#next')
 
 
 let counter =1;
-const size=images[1].clientWidth + "px";
+const size=images[1].clientWidth;
 
 console.log(size)
 
-slide.style.transform='translateX(-360px)'; 
+slide.style.transform='translateX('+ (-size * counter) + 'px)'; 
 
 console.log(nextbtn)
 
@@ -20,7 +20,7 @@ nextbtn.addEventListener('click',()=>{
     slide.style.transition = 'transform 1s ease-in-out';
     counter++;
     console.log('ma') 
-    slide.style.transform='translateX('+(-360  * counter) +'px)';
+    slide.style.transform='translateX('+(-size  * counter) +'px)';
     
     /*  slide.style.transform='translateX(' + (-size * counter ) + 'px)'; */
 })
@@ -30,7 +30,7 @@ prevbtn.addEventListener('click',()=>{
     slide.style.transition = 'transform 1s ease-in-out';
     console.log('ma')
     counter--;
-    slide.style.transform='translateX('+(-360  * counter) +'px)';
+    slide.style.transform='translateX('+(-size  * counter) +'px)';
     
     /*  slide.style.transform='translateX(' + (-size * counter ) + 'px)'; */
 })
@@ -41,7 +41,7 @@ slide.addEventListener('transitionend' ,()=> {
         /* setting in the initial position  */
         counter = 1;
          /* setting in the initial position  */
-        slide.style.transform='translateX('+(-360  * counter) +'px)';
+        slide.style.transform='translateX('+(-size * counter) +'px)';
         slide.style.transition = 'none';
     }
 
@@ -51,7 +51,7 @@ slide.addEventListener('transitionend' ,()=> {
          /* setting in the last position  */
         counter = 4;
          /* setting in the last position  */
-        slide.style.transform='translateX('+(-360  * counter) +'px)';
+        slide.style.transform='translateX('+(-size  * counter) +'px)';
         slide.style.transition = 'none';
     }
 
