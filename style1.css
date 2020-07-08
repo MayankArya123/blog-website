@@ -142,7 +142,7 @@ a {
 /* side title */
 
 .site-title {
- background: url('../assets/Background-image.png');
+ background: url('./assets/Background-image.png');
  background-size: cover;
  height: 110vh;
  display: flex;
