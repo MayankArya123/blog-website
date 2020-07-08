@@ -525,6 +525,16 @@ opacity: 1 !important;
 
 
 @media only screen and (max-width:360px)  {
+    
+    
+    .site-title {
+ background: url('/assets/Background-image.png');
+ background-size: cover;
+ height: 110vh;
+ display: flex;
+ justify-content: center;
+ margin-bottom: 60px;
+}
 
     .site-title {
         
@@ -572,6 +582,15 @@ opacity: 1 !important;
 
 
 @media only screen and (max-width:750px) {
+    
+    .site-title {
+ background: url('/assets/Background-image.png');
+ background-size: cover;
+ height: 110vh;
+ display: flex;
+ justify-content: center;
+ margin-bottom: 60px;
+}
 
     .carousel-container { 
 
