@@ -539,8 +539,8 @@ opacity: 1 !important;
        }
 
     .carousel-container { 
-        width: 180px;
-        height: 200px;
+        display:none;
+
     }
 
     .carousel-container .carousel-images .title img{
@@ -575,17 +575,6 @@ opacity: 1 !important;
 
 @media only screen and (max-width:750px) {
     
-<<<<<<< HEAD
-=======
-    .site-title {
- background: url('./assets/Background-image.png');
- background-size: cover;
- height: 110vh;
- display: flex;
- justify-content: center;
- margin-bottom: 60px;
-}
->>>>>>> f3b8b7659db84c33d558b742ac42dd0097bfea00
 
     .carousel-container { 
 
