@@ -142,7 +142,7 @@ a {
 /* side title */
 
 .site-title {
- background: url('/assets/Background-image.png');
+ background: url('../assets/Background-image.png');
  background-size: cover;
  height: 110vh;
  display: flex;
@@ -530,7 +530,7 @@ opacity: 1 !important;
 
     .site-title {
         
-        background-image: image-set('/assets/Background-image.png');
+        background: url('../assets/Background-image.png');
         background-size: cover;
         height: 100vh;
         display: flex;
@@ -576,7 +576,7 @@ opacity: 1 !important;
 @media only screen and (max-width:750px) {
     
     .site-title {
- background: url('/assets/Background-image.png');
+ background: url('../assets/Background-image.png');
  background-size: cover;
  height: 110vh;
  display: flex;
@@ -598,7 +598,7 @@ opacity: 1 !important;
     }
 
     .site-title {
-        background-image: image-set('/assets/Background-image.png');
+        background: url('../assets/Background-image.png');
         background-size: cover;
         height: 100vh;
         display: flex;
